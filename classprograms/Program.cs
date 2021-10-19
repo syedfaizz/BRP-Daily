@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace MoodAnalyserProblem
+namespace HashTableProblems
 {
     class Program
     {
-        static void Main(string[] args)
+        class Program
         {
-            Console.WriteLine("Handled null exception");
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Welcome To HashTable Programs.");
+            }
         }
     }
-}
