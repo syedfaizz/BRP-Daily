@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace HashTableProblems
+namespace ExceptionHandling
 {
     class Program
     {
-        class Program
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                Console.WriteLine("Welcome To HashTable Programs.");
-            }
+            Console.WriteLine("Hello World!");
         }
     }
+}
