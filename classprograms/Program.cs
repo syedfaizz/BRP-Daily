@@ -1,12 +1,21 @@
 ﻿using System;
 
-namespace ExceptionHandling
+class Test
 {
-    class Program
+    static int factorial(int n)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        int res = 1, i;
+
+        for (i = 2; i <= n; i++)
+            res *= i;
+        return res;
+    }
+
+    public static void Main()
+    {
+        int num = 6;
+        Console.WriteLine(
+            "Factorial of " + num
+            + " is " + factorial(6));
     }
 }
