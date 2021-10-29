@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections;
+
+namespace program
+{
+    class Tutorial
+    {
+        static void Main()
+        {
+            Stack st = new Stack();
+
+            st.Push("BMW");
+            st.Push("Ford");
+            st.Push("Toyota");
+
+            Console.WriteLine(st.Pop());
+            Console.WriteLine(st.Pop());
+            Console.WriteLine(st.Pop());
+
+            st.Clear();
+
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+
+using System;
+using System.Collections;
+
+namespace CSharp
+{
+    class program
+    {
+        static void Main()
+        {
+            Queue qu = new Queue();
+
+            qu.Enqueue("BMW");
+            qu.Enqueue("Ford");
+            qu.Enqueue("Toyota");
+
+            Console.WriteLine(qu.Dequeue());
+            Console.WriteLine(qu.Dequeue());
+            Console.WriteLine(qu.Dequeue());
+
+            qu.Clear();
+            Console.ReadKey();
+        }
+    }
+}
