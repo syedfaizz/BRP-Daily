@@ -11,3 +11,4 @@ namespace FileIO
         public int ApplicationID { get; set; } = 1000;
     }
 }
+}
